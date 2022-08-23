@@ -7,14 +7,14 @@ PrintNumber(m, n);
 
 void PrintNumber(int m, int n)
 {
-  if (m > n) return;
-  PrintNumber(m, n - 1);
-  Console.Write(n + ", ");
+    if (m > n) return;
+    PrintNumber(m, n - 1);
+    Console.Write(n + ", ");
 }
 
-int InputNumbers(string input) 
+int InputNumbers(string input)
 {
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
+    Console.Write(input);
+    int output = Convert.ToInt32(Console.ReadLine());
+    return output;
 }
